@@ -2,9 +2,11 @@
 
 Steps:
 
+- Install python and add pip to system path
+
 - Creating virtual environment within terminal directory : 
   - > pip install virtualenv
-  - > virtual -p python3 venv
+  - > virtualenv -p python3 venv
   - > venv\Scripts\activate
 
 - Create Django Project and Applications:
