@@ -7,7 +7,7 @@ Steps:
 - Creating virtual environment within terminal directory : 
   - > pip install virtualenv
   - > virtualenv -p python3 venv
-  - > venv\Scripts\activate
+  - > venv\Scripts\activate    (If error "Scripts is not enabled on this system" occurs activate execution policy in powershell )
 
 - Create Django Project and Applications:
   - > pip install django
